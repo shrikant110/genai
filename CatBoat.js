@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import readline from "readline";
 
-const genAI = new GoogleGenerativeAI("AIzaSyBZQU1YnDAPCB4Nmu1P4_ditvSpzRou-2g");
+const genAI = new GoogleGenerativeAI("<TOKEN>");
 
 
 const rl = readline.createInterface({
